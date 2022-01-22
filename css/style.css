@@ -1,0 +1,183 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+.hidden{
+    display: none;
+}
+
+input::placeholder {color:rgb(255, 255, 255);}
+textarea::placeholder {color:rgb(255, 255, 255);}
+input:focus {outline:none;}
+
+#login-form{
+    width: 500px;
+    margin: 0 auto;
+    /* display: flex; */
+    flex-direction: column;
+    position: relative;
+    top: 50vh;
+}
+
+#login-form input{
+    border: none;
+    background-color: transparent;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+#login-form button{
+    margin: 0 auto;
+    width: 80px;
+    background-color: transparent;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    border-bottom: 2px solid white;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    line-height: 50px;
+}
+
+#login-form button:hover{
+    color: white;
+    transition: .3s;
+}
+
+#clock{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    position: relative;
+    top: 20vh;
+}
+
+#greeting{
+    color: white;
+    font-family: 'Gowun Dodum', sans-serif, 'Oswald';
+    font-weight: 100;
+    z-index: 1;
+    text-align: center;
+    color: rgb(255, 227, 101);
+    font-size: 20px;
+    position: relative;
+    top: 20vh;
+}
+
+#weather{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -20vh;
+}
+
+#todo-form{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 35vh;
+}
+
+#todo-form input{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px soild white;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#todo-form:active{
+    border: none;
+}
+
+#todo-list{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70vh;
+    left: 40vw;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Gowun Dodum', sans-serif, 'Oswald';
+    font-weight: 400;
+    border-bottom: 2px soild white;
+    color: white;
+    text-shadow: 1px 3px 4px rgb(83, 83, 83);
+}
+
+#todo-list button{
+    width: 5px;
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    text-shadow: 1px 3px 4px rgb(104, 104, 104);
+}
+
+#quote{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Gowun Dodum', sans-serif, 'Oswald';
+    font-weight: 400;
+    position: relative;
+    top: 70vh;
+    
+}
+
+#quote span:first-child{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+#quote span:last-child{
+    text-align: center;
+    font-size: 12px;
+    color: wheat;
+    display: flex;
+    width: 150px;
+    margin: 0 auto;
+}
+
+
+
+img{
+    position: relative;
+    top: -50vh;
+    z-index: -10;
+    background-size: 100%;
+}
